@@ -1,0 +1,112 @@
+#home {
+  background-color: azure;
+  font-family: 'Xanh Mono', monospace;
+  color: black;
+}
+
+.navbar{
+  background-color: black;
+  border-bottom: 1px solid black;
+}
+
+.jumbotron {
+  padding-top: 21rem;
+  color: white;
+  /* background-image: url(/img/bg1.jpg);
+  background-position: center;
+  background-size: cover; */
+  background-color: black;
+}
+
+#myVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.pp {
+  position: absolute;
+  bottom: 0;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+#project {
+  color: black;
+  /* background-image: url(/img/bg1.jpg); */
+  background-color: black;
+  padding-bottom: 70px;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+#about .container p {
+  font-size: 16px;
+}
+
+#about a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.bgcostum {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: rgba(36, 36, 36, 0.5);
+  border: 1px solid black;
+}
+
+footer {
+  /* background-image: url(/img/bg1.jpg);
+  background-size: cover;
+  background-position: center; */
+  background-color: black;
+}
+
+.light {
+  margin-top: 20px;
+  margin-bottom: 150px;
+  position: relative;
+  font-size: 2em;
+  letter-spacing: 15px;
+  color: #0e3742;
+  text-transform: uppercase;
+  text-align: center;
+  /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0004); */
+  line-height: 0.9em;
+  outline: none;
+  animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  18%,
+  20%,
+  50.1%,
+  60%,
+  65.1%,
+  80%,
+  90.1%,
+  92% {
+    color: #0e3742;
+    text-shadow: none;
+  }
+  18.1%,
+  20.1%,
+  30%,
+  50%,
+  60.1%,
+  65%,
+  80.1%,
+  90%,
+  92%,
+  100% {
+    color: #fff;
+    box-shadow: 0 0 10px #d0f403, 0 0 20px #d0f403, 0 0 40px #d0f403,
+      0 0 80px #d0f403, 0 0 160px #d0f403;
+  }
+}
